@@ -12,18 +12,22 @@ class Subscriptions extends StatelessWidget {
         children: [
           SubItem(
             asset: 'assets/netflix.png',
-            title: 'Amazon Premium',
-            rate: 'Rs 163 /user /Month',
+            title: 'Netflix Premium',
+            rate: 'Rs 163 / user /Month',
             description: 'bought by Ishika Verma',
             buttonText: 'Buy',
+            alertText: '6+ groups',
+            bottomBar: true,
           ),
           SubItem(
             asset: 'assets/prime-video.png',
-            title: 'Netflix Premium',
+            title: 'Amazon Premium',
             description:
                 'Watch Unlimited Movies, TV Shows & Get Free Shipping Benefits with Amazon Prime',
-            rate: 'Rs 700 650 /Month',
+            rate: 'Rs 700 650 / Month',
             buttonText: 'Join',
+            alertText: '40% off',
+            bottomBar: false,
           ),
         ],
       ),
