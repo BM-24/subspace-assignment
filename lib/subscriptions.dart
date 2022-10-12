@@ -14,7 +14,7 @@ class Subscriptions extends StatelessWidget {
             asset: 'assets/netflix.png',
             title: 'Netflix Premium',
             rate: 'Rs 163 / user /Month',
-            description: 'bought by Ishika Verma',
+            description: 'bought by Ishika Verma\n1/5 friends sharing',
             buttonText: 'Buy',
             alertText: '6+ groups',
             bottomBar: true,
